@@ -1,6 +1,14 @@
 # social-media-app
 This project was built by using MERN stack
 
+Technologies iclude:
+    --Node.js and ExpressJS for backend
+    --MongoDB and mongoose library for database
+    --React as a frontend library
+    --Redux(Redux Persist and Redux Toolkit) as a state management library
+    --Formik and Yup for form validation
+    And other some libraries.
+
 #for starting
 1) After downloading process, you must install all important packages by using "npm install" command for both client and server side.
 
