@@ -20,7 +20,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPost } from "../../state";
 
-import { API_URL } from "constant";
+import {API_URL} from "../../constant/index"
 
 const PostWidget = ({
   postId,

@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setFriends } from "../../state";
 
-import { API_URL } from "constant";
+import {API_URL} from "../../constant/index"
 
 const FriendListWidget = ({ userId }) => {
   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-import { API_URL } from "constant";
+import { API_URL } from "../constant/index";
 
 //our own custom component like MUI components
 const UserImage = ({ image, size = "60px" }) => {

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "../../state";
 import PostWidget from "./PostWidget";
 
-import { API_URL } from "constant";
+import { API_URL } from "../../constant/index";
 
 const PostsWidget = ({ userId, isProfile = false }) => {
   const dispatch = useDispatch();

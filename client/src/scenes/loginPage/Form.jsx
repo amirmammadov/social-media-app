@@ -16,7 +16,7 @@ import { setLogin } from "../../state";
 import Dropzone from "react-dropzone";
 import FlexBetween from "../../components/FlexBetween";
 
-import { API_URL } from "constant";
+import {API_URL} from "../../constant/index"
 
 const regsiterSchema = yup.object().shape({
   firstName: yup.string().required("required"),

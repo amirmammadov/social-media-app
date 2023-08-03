@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { API_URL } from "constant";
+import {API_URL} from "../../constant/index"
 
 const UserWidget = ({ userId, picturePath }) => {
   const [user, setUser] = useState(null);
